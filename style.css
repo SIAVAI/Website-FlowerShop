@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+    font-family: 'Lato', sans-serif;
+}
+p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+button {
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+button:hover {
+    background-color: #971919f3;
+} 
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+.section-heading h2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .banner-text h1 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner .banner-text *{
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+.banner .banner-img img{
+    width: 100%;
+    vertical-align: middle;
+}
+/* feature design */
+#feature {
+    padding: 100px 0;
+}
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+}
+.section-content .flower .flower-img {
+
+    border-radius: 300px 300px 0 0;
+    padding: 30px 15px 0;
+    height: 500px;
+
+    display: flex;
+    align-items: end;
+}
+.section-content .flower .flower-img img {
+    width: 100%;
+
+}
+.section-content  .flower .pink { 
+    background: rgba(167, 33, 98, 0.15);
+ }  
+.section-content .flower .blue {  
+    background: rgba(5, 151, 160, 0.15);
+} 
+.section-content .flower .green {
+    background: rgba(71, 125, 17, 0.15);
+}
+.section-content .flower p {
+    color: #272727;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 145.833% */
+    text-decoration-line: underline;
+}
+
+/* Service */
+.service {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+    margin-bottom: 128px;
+}
+.service img {
+    height: 88px;
+    width: 88px;
+    padding: 24px 142px;
+}
+.service p {
+    text-align: center;
+}
+/* hotdeal */
+.hotdeal {
+    margin: 128px 0;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.hotdeal .hotdeal-content {
+    text-align: center;
+}
+.hotdeal .hotdeal-content h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.hotdeal .hotdeal-content span {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+/* flowers container */
+.instagram {
+    margin-top: 128px;
+}
+.container-flowers {
+    /* margin: 128px 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-flowers *{
+    height: 300px;
+    width: 300px;
+    padding-left: 0;
+
+}
+/* newsletter */
+#newsletter {
+    margin: 128px 0;
+}
+.newletter-main {
+    background-image: url('/images/Rectangle\ 9.png');
+    padding: 122px 0;
+}
+#newsletter form {
+    max-width:800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+#newsletter form input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    outline: none;
+}
+
+.ending {
+    background: #111010;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+.lasthead {
+    padding: 128px 0;
+}
+.ending .lasthead .one {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.ending .lasthead .two {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.ending p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
